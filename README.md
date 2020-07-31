@@ -26,7 +26,7 @@ class Gondar_Ra:
         return name, age, birthday, status, languages
 
 if __name__ == "__main__":
-    client = Coats1337()
+    client = Gondar_Ra()
     socials = client.socials(['twitter', 'twitch', 'discord', 'instagram'])
     bio = client.bio()
     for i in socials:
