@@ -19,7 +19,7 @@ class Gondar_Ra:
                 self.user_socials.append('twitch : GondarRa')
                 
             elif item == 'instagram':
-                self.user_socials.append('twitch : gl_gondar')
+                self.user_socials.append('instagram : gl_gondar')
                 
             else:
                 self.user_socials.append(f'{item} : unknown')
