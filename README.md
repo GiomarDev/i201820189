@@ -1,3 +1,6 @@
+<img align="right" alt="GIF" height="300px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
+
+
 class Gondar_Ra:
     def __init__(self):
         self.user_socials = []
