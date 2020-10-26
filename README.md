@@ -13,7 +13,7 @@ class Gondar_Ra:
                 self.user_socials.append('twitter : GondarMC')
 
             elif item == 'discord':
-                self.user_socials.append('discord : @Gondar Ra⚡#0505')
+                self.user_socials.append('discord : @Gondar#0001)
 
             elif item == 'twitch':
                 self.user_socials.append('twitch : GondarRa')
