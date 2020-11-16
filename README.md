@@ -13,14 +13,11 @@ class Gondar_Ra:
                 self.user_socials.append('twitter : GondarMC')
 
             elif item == 'discord':
-                self.user_socials.append('discord : @Gondar#0001)
+                self.user_socials.append('discord : @Gondar.#6666)
 
             elif item == 'twitch':
                 self.user_socials.append('twitch : GondarRa')
-                
-            elif item == 'instagram':
-                self.user_socials.append('instagram : gl_gondar')
-                
+               
             else:
                 self.user_socials.append(f'{item} : unknown')
         return self.user_socials
@@ -35,7 +32,7 @@ class Gondar_Ra:
 
 if __name__ == "__main__":
     client = Gondar_Ra()
-    socials = client.socials(['twitter', 'twitch', 'discord', 'instagram'])
+    socials = client.socials(['twitter', 'twitch', 'discord'])
     bio = client.bio()
     for i in socials:
         print(i)
