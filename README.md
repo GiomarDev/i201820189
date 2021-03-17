@@ -24,7 +24,7 @@ class Gondar_Ra:
 
     def bio(self):
         name      : str = "Giomar"
-        age       : str = "19"
+        age       : str = "20"
         birthday  : str = "09/01/2001"
         status    : list = ["student", "developer"]
         languages : list = ["spanish", "english"]
